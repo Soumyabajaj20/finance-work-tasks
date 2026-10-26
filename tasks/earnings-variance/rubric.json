@@ -1,0 +1,132 @@
+{
+  "task": "earnings-variance",
+  "total_weight": 100,
+  "items": [
+    {
+      "id": "R01",
+      "category": "Headline",
+      "criterion": "Reports net sales of $23,276M vs consensus $23,050M: a beat of about $226M (+1.0%)",
+      "weight": 6
+    },
+    {
+      "id": "R02",
+      "category": "Headline",
+      "criterion": "Reports core EPS $2.00 vs consensus $2.03 (miss of $0.03, -1.5%) and GAAP diluted EPS $1.97 vs $1.99",
+      "weight": 6
+    },
+    {
+      "id": "R03",
+      "category": "Headline",
+      "criterion": "Characterises the quarter correctly as a sales beat with an EPS miss",
+      "weight": 4
+    },
+    {
+      "id": "R04",
+      "category": "Headline",
+      "criterion": "Reports organic sales growth of 4.0% vs consensus 3.0% (beat)",
+      "weight": 4
+    },
+    {
+      "id": "R05",
+      "category": "Headline",
+      "criterion": "Reports segment variances including Health Care net sales $3,318M vs $3,380M (miss, -1.8%) and at least one segment beat (Beauty +1.4% or Fabric & Home Care +1.0%)",
+      "weight": 4
+    },
+    {
+      "id": "R06",
+      "category": "Figures",
+      "criterion": "All figures quoted from the release or consensus sheet match them exactly",
+      "weight": 8
+    },
+    {
+      "id": "R07",
+      "category": "Figures",
+      "criterion": "A compact variance table is present and arithmetically correct",
+      "weight": 6
+    },
+    {
+      "id": "R08",
+      "category": "Drivers",
+      "criterion": "Explains the sales driver using the release: organic volume +2.4%, mix +1.1%, price +0.4%, FX neutral",
+      "weight": 6
+    },
+    {
+      "id": "R09",
+      "category": "Drivers",
+      "criterion": "Explains the gross margin miss: core gross margin 50.0% vs 50.8% consensus (-150 bp y/y), with commodities (-140 bp) as the main cause",
+      "weight": 6
+    },
+    {
+      "id": "R10",
+      "category": "Drivers",
+      "criterion": "Notes SG&A leverage as a partial offset (core SG&A down 80 bp to 24.1% of sales)",
+      "weight": 5
+    },
+    {
+      "id": "R11",
+      "category": "Drivers",
+      "criterion": "Reports core operating margin of 25.9% vs consensus 26.4% (-50 bp) and -80 bp y/y",
+      "weight": 5
+    },
+    {
+      "id": "R12",
+      "category": "Quality",
+      "criterion": "Points out that the +1% EPS growth came with flat pre-tax earnings ($6,023M vs $6,034M) and a lower share count (2,407.2M vs 2,436.8M, about -1.2%), i.e. buyback support",
+      "weight": 7
+    },
+    {
+      "id": "R13",
+      "category": "Quality",
+      "criterion": "Notes higher interest expense ($223M vs $197M) and/or lower non-operating income ($207M vs $268M)",
+      "weight": 4
+    },
+    {
+      "id": "R14",
+      "category": "Quality",
+      "criterion": "Explains the core vs GAAP gap ($0.03 incremental restructuring)",
+      "weight": 3
+    },
+    {
+      "id": "R15",
+      "category": "Guidance",
+      "criterion": "States FY2027 guidance: organic growth 1% to 3% and core EPS $6.89 to $7.11 maintained; all-in sales growth 2% to 4% updated for Thorne",
+      "weight": 5
+    },
+    {
+      "id": "R16",
+      "category": "Guidance",
+      "criterion": "Compares guidance with consensus (core EPS midpoint $7.00 vs $7.04, about -0.6%) and concludes estimates are more likely to fall",
+      "weight": 4
+    },
+    {
+      "id": "R17",
+      "category": "Guidance",
+      "criterion": "Cites the cost headwinds: about $1.4B after-tax commodities and a combined $0.79 per share headwind",
+      "weight": 3
+    },
+    {
+      "id": "R18",
+      "category": "Conclusion",
+      "criterion": "Gives a clear recommendation on whether the view or estimates change",
+      "weight": 4
+    },
+    {
+      "id": "R19",
+      "category": "Conclusion",
+      "criterion": "Lists at least two specific items to watch next quarter (e.g., commodity costs, Thorne integration, volume, tariffs)",
+      "weight": 4
+    },
+    {
+      "id": "R20",
+      "category": "Format",
+      "criterion": "The memo fits on one page",
+      "weight": 3
+    },
+    {
+      "id": "R21",
+      "category": "Format",
+      "criterion": "The deliverable is a .docx or .pdf with a professional structure (header, table, short paragraphs) addressed to an investment committee",
+      "weight": 3
+    }
+  ]
+}

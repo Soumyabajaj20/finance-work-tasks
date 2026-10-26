@@ -1,0 +1,138 @@
+{
+  "task": "dcf-valuation",
+  "total_weight": 100,
+  "items": [
+    {
+      "id": "R01",
+      "category": "Data extraction",
+      "criterion": "Historical revenue for FY2023, FY2024, FY2025 is $383,285M, $391,035M, $416,161M (within rounding)",
+      "weight": 5
+    },
+    {
+      "id": "R02",
+      "category": "Data extraction",
+      "criterion": "Historical operating income ($114,301M, $123,216M, $133,050M) and D&A ($11,519M, $11,445M, $11,698M) match the 10-K",
+      "weight": 4
+    },
+    {
+      "id": "R03",
+      "category": "Data extraction",
+      "criterion": "Capex ($10,959M, $9,447M, $12,715M) matches the 10-K and a change-in-working-capital figure is drawn from the cash flow statement for each year",
+      "weight": 4
+    },
+    {
+      "id": "R04",
+      "category": "Data extraction",
+      "criterion": "Uses diluted shares of about 15,004.7M and computes net debt from the balance sheet (debt about $98.7B; cash and marketable securities about $132.4B), stating its treatment of marketable securities; reference is net cash of about $33.8B",
+      "weight": 5
+    },
+    {
+      "id": "R05",
+      "category": "Projection",
+      "criterion": "Projects UFCF for exactly 5 years",
+      "weight": 4
+    },
+    {
+      "id": "R06",
+      "category": "Projection",
+      "criterion": "Revenue growth assumptions are stated per year and justified by reference to history (FY2025 growth 6.4%; FY2023-25 CAGR about 4.2%) or other evidence",
+      "weight": 5
+    },
+    {
+      "id": "R07",
+      "category": "Projection",
+      "criterion": "Operating margin assumption is stated and is consistent with the FY2025 margin of about 32.0%, or any deviation is explained",
+      "weight": 4
+    },
+    {
+      "id": "R08",
+      "category": "Projection",
+      "criterion": "UFCF is computed as EBIT*(1-t) + D&A - capex - change in NWC, with each component visible",
+      "weight": 6
+    },
+    {
+      "id": "R09",
+      "category": "WACC",
+      "criterion": "Cost of equity uses CAPM with the given risk-free rate (4.2%), ERP (4.5%) and beta (1.10), giving about 9.15%",
+      "weight": 6
+    },
+    {
+      "id": "R10",
+      "category": "WACC",
+      "criterion": "Uses the given 4.0% pre-tax cost of debt and applies the tax shield",
+      "weight": 3
+    },
+    {
+      "id": "R11",
+      "category": "WACC",
+      "criterion": "Capital structure weights use market value of equity (reference price $250 x diluted shares) and debt, shown explicitly (equity weight about 97%)",
+      "weight": 4
+    },
+    {
+      "id": "R12",
+      "category": "WACC",
+      "criterion": "WACC is computed correctly from its inputs and lands between 8.7% and 9.3% (reference about 9.0%)",
+      "weight": 5
+    },
+    {
+      "id": "R13",
+      "category": "Valuation",
+      "criterion": "Terminal value uses Gordon growth, FCF(n)*(1+g)/(WACC-g), with g below WACC and between 2.0% and 3.0%",
+      "weight": 6
+    },
+    {
+      "id": "R14",
+      "category": "Valuation",
+      "criterion": "Cash flows and terminal value are discounted with consistent timing (end-of-year or mid-year, stated)",
+      "weight": 5
+    },
+    {
+      "id": "R15",
+      "category": "Valuation",
+      "criterion": "Enterprise value to equity value bridge subtracts net debt (adds net cash) correctly",
+      "weight": 5
+    },
+    {
+      "id": "R16",
+      "category": "Valuation",
+      "criterion": "Value per share is within 15% of the reference value of $131.44, i.e. between $111.7 and $151.2",
+      "weight": 6
+    },
+    {
+      "id": "R17",
+      "category": "Sensitivity",
+      "criterion": "Sensitivity table has WACC rows (-1.0 pt to +1.0 pt in 0.5 pt steps) and terminal growth columns (1.5% to 3.5%)",
+      "weight": 5
+    },
+    {
+      "id": "R18",
+      "category": "Sensitivity",
+      "criterion": "Sensitivity values are internally consistent (value falls as WACC rises, rises with growth) and the base case cell equals the model output",
+      "weight": 4
+    },
+    {
+      "id": "R19",
+      "category": "Model quality",
+      "criterion": "Inputs are in clearly labelled cells and calculations use formulas rather than hard-coded results",
+      "weight": 5
+    },
+    {
+      "id": "R20",
+      "category": "Model quality",
+      "criterion": "The deliverable is an .xlsx that opens and has no error cells (#REF!, #DIV/0!, etc.)",
+      "weight": 3
+    },
+    {
+      "id": "R21",
+      "category": "Communication",
+      "criterion": "An Assumptions and risks sheet of at most 150 words is included",
+      "weight": 3
+    },
+    {
+      "id": "R22",
+      "category": "Communication",
+      "criterion": "Names at least two company-specific risks to the valuation (e.g., China and tariff exposure, App Store regulation) consistent with the 10-K risk factors",
+      "weight": 3
+    }
+  ]
+}
