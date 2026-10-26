@@ -4,11 +4,10 @@ building a realistic finance-analyst work tasks and post-training a small open m
 **Research question:** Can a small open model learn real financial-analyst work from automatically
 built, verified finance tasks, and does using the task rubrics as a reward beat plain SFT?
 
-**Final goal:** a research paper with Prof. Xie, written by 27 Dec 2026, showing whether a small open
+**Final goal:** a research paper with Prof. Xie, showing whether a small open
 model can learn real financial-analyst work from automatically built, verified finance tasks, and
 whether using the task rubrics as a reward beats plain SFT. A rebuilt, reusable finance task pipeline
-is a second contribution. The paper's main claim (dataset, rubric-reward training, or both) is still
-to be settled with Prof. Xie.
+is a second contribution.
 
 ## Layout
 - `tasks/<task>/anchor/` real public file (SEC EDGAR 10-K, earnings release, FRED data)
