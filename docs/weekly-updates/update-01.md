@@ -1,6 +1,6 @@
 # Weekly progress log: Week 1 (19 to 26 Oct 2026)
 
-**Final goal:** a research paper (write-up due 27 Dec 2026) on whether a small open model can learn real financial-analyst work from automatically built, verified finance tasks, and whether rubric-as-reward training beats plain SFT.
+**Final goal:** a research paper on whether a small open model can learn real financial-analyst work from automatically built, verified finance tasks, and whether rubric-as-reward training beats plain SFT.
 
 ## Done this week
 - Read GDPval and WorkGenesis and fixed the task format: anchor file, companion files, manager-style request, weighted rubric, reference deliverable, verification log.
