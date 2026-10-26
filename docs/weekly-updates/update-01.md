@@ -20,10 +20,3 @@
 | Trim the Apple 10-K to the financial statements so it fits a small model's context | Not started |
 | Confirm neither company appears in the GDPval gold tasks (held out for final evaluation) | Not started |
 | Phase 1 results table and short report to Prof. Xie | Due 3 Nov |
-
-## Open items
-- GPU and LLM API access details from Prof. Xie.
-- Add Prof. Xie as a collaborator once his GitHub username is received.
-- Main claim of the paper (finance dataset, rubric-reward training, or both) to settle with him.
-- Authorship and target venue to ask about once Phase 1 results are in.
-- Exams run 9 to 21 Nov, which is why Phase 2 is stretched to 30 Nov.
