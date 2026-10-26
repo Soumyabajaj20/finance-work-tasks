@@ -5,6 +5,3 @@
 - Accession number: 0000320193-25-000079
 - Filing index: https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/
 - Structured data used for the reference: https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json (filter accession 0000320193-25-000079)
-
-TODO(you): download the main 10-K document from the filing index (the .htm named like aapl-20250927.htm) and save it in this folder.
-This is the latest 10-K on file as of 23 Oct 2026 (FY2026 10-K is due around end of October).
