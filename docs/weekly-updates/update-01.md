@@ -18,7 +18,7 @@ Next week
 - Verification rounds on both tasks.
 - Baseline runs and rubric scores.
 
-Repo: [link]
+Repo: https://github.com/Soumyabajaj20/finance-work-tasks
 
 Best regards,
 Soumya
